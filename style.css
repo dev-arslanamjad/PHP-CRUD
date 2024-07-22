@@ -1,0 +1,33 @@
+.toleft{
+    position: absolute;
+     top: 50px;
+    right: 11%;
+}
+.truebtns{
+    width: 48%;
+}
+body
+{
+counter-reset: Serial;          
+}
+tr td:first-child:before
+{
+counter-increment: Serial;      
+content: counter(Serial); 
+}
+.inpuuu {
+    width: 90% !important;
+    margin-inline: 10px;
+}
+
+.seeall {
+    width: 28%;
+    position: absolute;
+    right: 10px;
+    top: -54px;
+}
+
+.submitty {
+    width: 30%;
+    margin-inline: 35%;
+}
